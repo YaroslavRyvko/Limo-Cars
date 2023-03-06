@@ -1,0 +1,29 @@
+.section-intro {
+  padding: 100px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #000000;
+  text-align: center;
+
+  &__sub-title {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    max-width: 847px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-intro {
+    padding: 60px 20px 20px;
+
+    &__title {
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+}

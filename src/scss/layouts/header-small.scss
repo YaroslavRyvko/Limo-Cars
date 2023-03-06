@@ -1,0 +1,37 @@
+.header-small {
+  padding: 7px 0;
+  height: 65px;
+  background-color: black;
+
+  .header__inner {
+    height: 100%;
+  }
+
+  .header__left {
+    gap: 53px;
+  }
+
+  .header__logo {
+    width: 143px;
+    height: 27px;
+    padding: 0;
+  }
+
+  .header__navigation {
+    padding-top: 3px;
+  }
+
+  .header__navigation-mobile {
+    top: 0;
+  }
+
+  .header__right {
+    .contact-btn {
+      margin: 0;
+    }
+  }
+}
+
+.header-small.fixed {
+  height: auto;
+}

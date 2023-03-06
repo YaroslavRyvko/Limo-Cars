@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none !important;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+// google map fix
+.gm-style img {
+  max-width: none;
+}
+
+strong {
+  font-weight: 700;
+}
